@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-JoblistingApplication<joblisting>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.springstack.joblisting.JoblistingApplication",
+            "projectName": "joblisting",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
