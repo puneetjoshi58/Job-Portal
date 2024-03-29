@@ -45,6 +45,7 @@ public class PostController {
   }
 
  
+  @SuppressWarnings("null")
   @PostMapping("/post")
   @CrossOrigin
   public Post addPost(@RequestBody Post post) {

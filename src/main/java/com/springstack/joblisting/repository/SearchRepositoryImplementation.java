@@ -26,6 +26,7 @@ public class SearchRepositoryImplementation implements SearchRepository {
     MongoConverter converter;
 
     
+    @SuppressWarnings("null")
     @Override
     public List<Post> findByText(String text) {
 
