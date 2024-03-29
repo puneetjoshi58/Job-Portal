@@ -44,6 +44,7 @@ public class PostController {
     return srepo.findByText(text);
   }
 
+ 
   @PostMapping("/post")
   @CrossOrigin
   public Post addPost(@RequestBody Post post) {

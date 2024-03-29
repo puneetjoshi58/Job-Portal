@@ -25,6 +25,7 @@ public class SearchRepositoryImplementation implements SearchRepository {
     @Autowired
     MongoConverter converter;
 
+    
     @Override
     public List<Post> findByText(String text) {
 
