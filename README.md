@@ -4,7 +4,7 @@ A Job portal for companies to put out job requirements and for employees to look
 # Dockerized
 This application is now dockerized!
 
-#Setup
+# Setup
 
 Prerequisite to running the application :
 
