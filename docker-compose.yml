@@ -6,7 +6,7 @@ services:
     ports:
       - 27017:27017
   joblisting-application:
-    image: 234194605782.dkr.ecr.ap-south-1.amazonaws.com/joblisting-application:latest
+    image: joblisting-application:1.0
     container_name: joblisting-application
     ports:
       - 8080:8080
