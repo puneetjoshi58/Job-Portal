@@ -1,6 +1,22 @@
 # Job-Portal
 A Job portal for companies to put out job requirements and for employees to look for one
 
+#Terraform Implementation
+This application can now be deployed using Terraform!
+
+1. Initialize Resources 
+```
+    $ Terraform init
+```
+2. Plan
+```
+    $ Terraform plan
+```
+3. Deploy
+```
+    $ Terraform apply
+```
+
 # Dockerized
 This application is now dockerized!
 
